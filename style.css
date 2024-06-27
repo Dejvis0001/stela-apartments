@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 section {
-    padding: 70px 0;
+    padding: 50px 0;
     overflow: hidden;
 }
 .row {
@@ -530,28 +530,71 @@ body::-webkit-scrollbar-thumb {
     background: url(assets/image/9.jpg) rgba(0, 0, 0, 0.625);
 }
 .roombox {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #C4B583;
+    color: #000000;
     padding: 20px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-.roombox:hover {
-    background-color: #c5c5c5;
-    color: #000000;
-    transition: 1s ease;
-}
+
 .roombox h1 {
     font-size: xx-large;
     text-transform: capitalize;
 }
-.roombox p {
-    font-size: 22px;
-    margin: 20px 0;
+
+.roombox h5 {
+    font-size: 18px;
 }
+
 .roombox .mim {
     margin-top: 20px;
 }
+
+.icon-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon-item {
+    border: 1px dotted black;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.icon-item:hover {
+    background-color: #000000;
+}
+
+.icon-item i {
+    font-size: 24px;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.icon-item:hover i {
+    color: #C4B583;
+}
+
+.icon-label {
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.icon-item:hover .icon-label {
+    color: #C4B583;
+}
+
 .home1 {
     padding: 0;
     border-top-left-radius: 30px;
@@ -849,6 +892,8 @@ ul.link_menu li a:hover {
     .testim .arrow.right {right: 45px;}
     .testim .arrow.left {left: 45px}
     #home {padding: 0px !important;}
+    .sldh1{font-size: 40px;}
+    .sldh2{font-size: 30px;}
     html body main section div.container div.row div.col-md-4 img.w-100 {height: 400px !important;}
     html body main section div.container div.row div.col-md-6,html body main section div.container div.row div.col-md-4.justify-content-center.text-center.m-auto div.justify-content-center.text-center.m-auto {margin: 30px 0 !important;}
 }
